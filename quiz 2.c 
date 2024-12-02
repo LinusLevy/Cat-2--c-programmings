@@ -1,0 +1,88 @@
+a) In C, structures are essential for creating complex data types by grouping related variables under one name.
+
+Required:
+
+          i.               Write a C program to define a structure named employee that contains the following fields: name (a string of 25 characters), id (an integer), department (a string of 20 characters), salary (a float), and email (a string of 50 characters).
+
+
+        ii.               Declare a variable of this structure type and initialize it with the following data:
+
+i. name: "John Doe"
+ii. id: 12345
+iii. department: "Human Resources"
+iv. salary: 55000.50
+v. email: john.doe@company.com
+
+ 
+
+Finally, print the values of the fields.
+Answer text Question 2
+
+
+#include <stdio.h>
+
+#include <string.h>
+
+
+
+//define the employee structure
+
+structure employment {
+
+        chair name[25];
+
+        int id;
+
+        chair department [20]
+
+        float salary;
+
+        chair email[50]
+
+};
+
+int main() {
+
+       //Declare a variable of the 
+
+      structure  employee emp = {
+
+              "John Doe",
+
+              12345,
+
+               "Human Resources",
+
+               55000.50,
+
+                "john .doe @company.com"
+
+       };
+
+       // print the  values of the f1
+
+       print f ("Name:%s ,emp .name
+
+       print f ("ID :%d/n", emp. id);   
+
+       print f ("Department :%2f/n",emp1 .d
+
+       print f (salary :%.2f/n", emp1 .sal
+
+       print f ("Email :%s/n", emp1 .email)
+
+       
+
+       return 0;
+
+
+
+}
+
+
+
+
+
+
+
+ 
